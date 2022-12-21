@@ -2,11 +2,12 @@
 // https://www.electronjs.org/docs/latest/tutorial/process-model#preload-scripts
 
 const { contextBridge } = require('electron')
+const path = require('path')
 
 function loadBackend() {
     var { exec } = require('child_process');
-    const path = require('path')
-    exec(path.join(__dirname, 'backend/crud'), function (err, data) {
+    var executablePath = path.join(__dirname, 'backend/crud');
+    exec(executablePath, function (err, data) {
         if (err) {
             console.error(err);
             return;

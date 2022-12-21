@@ -9,9 +9,14 @@ window.loadBackend()
 
 function loadApi() {
     const url = "http://localhost:4000/"
-    fetch(url).then(response => response.json()).then(function (response) {
-        console.log(response)
-    })
+    fetch(url)
+        .then(response => response.json())
+        .then(function (response) {
+            document.getElementById('load').innerHTML = response + `🥂`
+        })
+        .catch(function (error) {
+            throw error
+        })
 }
 
 loadApi()

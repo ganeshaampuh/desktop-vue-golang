@@ -12,7 +12,7 @@ func main() {
 	router := mux.NewRouter()
 
 	router.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		json.NewEncoder(w).Encode("Hello World")
+		json.NewEncoder(w).Encode("Connected to backend")
 	})
 
 	log.Println("API is running!")

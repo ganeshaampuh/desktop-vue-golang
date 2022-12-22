@@ -9,8 +9,6 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "test:ci": "echo \"No test configured\"",
     "backend:build": "cd $(pwd)/src/backend && go get && go build"
   },
   "keywords": [],

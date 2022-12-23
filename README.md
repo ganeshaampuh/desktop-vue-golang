@@ -6,6 +6,7 @@ This is experimental project for desktop application with electron golang as a s
 - Go
 - NodeJS v16.13.1
 - Git
+- Homebrew (development on mac)
 
 ## Documentation
 

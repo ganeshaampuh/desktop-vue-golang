@@ -2,6 +2,8 @@
 
 This is experimental project for desktop application with electron golang as a server-side and vue as a client-side, golang with vue will communicate via http because basically electron is a packed-web application.
 
+[![Build & Release](https://github.com/ganeshaampuh/desktop-vue-golang/actions/workflows/build.yml/badge.svg)](https://github.com/ganeshaampuh/desktop-vue-golang/actions/workflows/build.yml)
+
 ## Pre-requisities:
 - Go
 - NodeJS v16.13.1

@@ -10,7 +10,7 @@ module.exports = {
           name: 'desktop-vue-golang'
         },
         prerelease: true,
-        authToken: "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"
+        authToken: process.env.GITHUB_TOKEN
       }
     }
   ],
@@ -21,7 +21,7 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-zip',
-      platforms: ['darwin', 'linux'],
+      platforms: ['darwin', 'linux', 'win32'],
     },
     {
       name: '@electron-forge/maker-deb',

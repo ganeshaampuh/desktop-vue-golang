@@ -1,7 +1,9 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
-require('update-electron-app')()
+if (process.platform !== 'darwin') {
+  require('update-electron-app')()
+}
 
 const createWindow = () => {
   // Create the browser window.

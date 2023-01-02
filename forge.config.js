@@ -14,7 +14,7 @@ module.exports = {
           name: 'desktop-vue-golang'
         },
         prerelease: true,
-        authToken: process.env.GITHUB_TOKEN
+        authToken: "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"
       }
     }
   ],

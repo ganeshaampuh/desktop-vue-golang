@@ -38,11 +38,11 @@ jobs:
       #   run: yarn lint
       # - name: test
       #   run: yarn test:ci
-      - name: Coveralls
-        if: matrix.os == 'ubuntu-latest'
-        uses: coverallsapp/github-action@1.1.3
-        with:
-          github-token: ${{ secrets.TOKEN }}
+      # - name: Coveralls
+      #   if: matrix.os == 'ubuntu-latest'
+      #   uses: coverallsapp/github-action@1.1.3
+      #   with:
+      #     github-token: ${{ secrets.TOKEN }}
   build:
     needs: test
     name: Build (${{ matrix.os }} - ${{ matrix.arch }})

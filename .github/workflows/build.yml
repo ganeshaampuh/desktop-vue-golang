@@ -56,7 +56,7 @@ jobs:
         arch: [ x64, arm64 ]
         include:
         - os: windows-latest
-          arch: x64
+          arch: universal
         # - os: ubuntu-latest
         #   arch: armv7l
         # Publishing artifacts for multiple Windows architectures has

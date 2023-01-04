@@ -1,6 +1,8 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
+if (require('electron-squirrel-startup')) return;
+
 if (process.platform !== 'darwin') {
   require('update-electron-app')()
 }

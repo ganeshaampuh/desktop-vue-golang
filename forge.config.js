@@ -16,7 +16,10 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        authors: 'Ganesha Ampuh',
+        description: 'Desktop boilerplate for Golang + Vue stack'
+      },
     },
     {
       name: '@electron-forge/maker-zip',

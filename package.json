@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "Desktop boilerplate for Golang + Vue stack",
   "main": "src/index.js",
+  "repository": "https://github.com/ganeshaampuh/desktop-vue-golang",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",

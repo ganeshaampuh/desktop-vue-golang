@@ -1,9 +1,4 @@
 module.exports = {
-  packagerConfig: {
-    ignore: [
-      "^\\/node_modules$",
-    ]
-  },
   rebuildConfig: {},
   publishers: [
     {
